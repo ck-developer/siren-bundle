@@ -1,0 +1,30 @@
+{
+    "name": "ck-developer/siren-bundle",
+    "description": "siren bundle",
+    "license": "MIT",
+    "require": {
+        "ck-developer/siren-sdk-php": "1.0.x-dev",
+        "symfony/framework-bundle": "^3.0 || ^4.0 || ^5.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.3"
+    },
+    "suggest": {
+        "php-http/httplug-bundle": ""
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Siren\\Bundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Siren\\Bundle\\Tests\\": "tests"
+        }
+    }
+}
